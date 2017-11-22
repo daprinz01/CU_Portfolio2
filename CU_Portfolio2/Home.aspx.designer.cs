@@ -7,72 +7,90 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CU_Portfolio2.Account {
+namespace CU_Portfolio2 {
     
     
-    public partial class Login {
+    public partial class Home {
         
         /// <summary>
-        /// ErrorMessage control.
+        /// shortName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder ErrorMessage;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl shortName;
         
         /// <summary>
-        /// FailureText control.
+        /// passion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal FailureText;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl passion;
         
         /// <summary>
-        /// Username control.
+        /// msg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Username;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl msg;
         
         /// <summary>
-        /// Password control.
+        /// fullName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Password;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl fullName;
         
         /// <summary>
-        /// RememberMe control.
+        /// sex control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox RememberMe;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sex;
         
         /// <summary>
-        /// RegisterHyperLink control.
+        /// maritalStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink RegisterHyperLink;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl maritalStatus;
         
         /// <summary>
-        /// OpenAuthLogin control.
+        /// study control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::CU_Portfolio2.Account.OpenAuthProviders OpenAuthLogin;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl study;
+        
+        /// <summary>
+        /// specialization control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl specialization;
+        
+        /// <summary>
+        /// proficiencies control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl proficiencies;
     }
 }

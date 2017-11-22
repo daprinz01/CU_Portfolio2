@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage.master.cs" Inherits="CU_Portfolio2.NestedMasterPage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+        <div class="row">
+        <!-- Menu -->
+        <div class="col-md-3 col-sm-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="../Home.aspx">Home</a></li>
+                <li role="presentation"><a href="Profile">Veiw Details</a></li>
+                <li role="presentation"><a href="UpdateDetails" >Update CV</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9 col-sm-9">
+            <asp:ContentPlaceHolder ID="Dashboard" runat="server">
+
+            </asp:ContentPlaceHolder>
+            </div>
+            </div>
+</asp:Content>

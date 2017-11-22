@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace CU_Portfolio2
 {
-    public partial class About : Page
+    public partial class NestedMasterPage : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

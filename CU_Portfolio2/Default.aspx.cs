@@ -11,7 +11,11 @@ namespace CU_Portfolio2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (User.Identity.IsAuthenticated)
+            {
+                Response.Redirect("~/Home");
+            }
+            
         }
     }
 }
